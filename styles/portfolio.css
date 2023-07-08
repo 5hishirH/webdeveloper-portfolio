@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.primaryTextColor {
+    color: #FD6E0A;
+}
+
+.btnPrimary {
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+
+nav {
+    display: flex;
+}
+
+.navTitle {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
