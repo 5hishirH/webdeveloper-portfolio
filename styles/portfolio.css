@@ -9,12 +9,19 @@ body {
 }
 
 .btnPrimary {
+    border: none;
     border-radius: 5px;
     background: #FD6E0A;
+    padding: 18px 35px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
 }
 
 nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navTitle {
@@ -26,14 +33,17 @@ nav {
 
 nav > ul {
     display: flex;
+    align-items: center;
 }
 
 nav li {
     list-style: none;
-    margin-right: 50px;
+    margin-left: 50px;
 }
 
 nav a {
     text-decoration: none;
     color: #474747;
+    font-size: 20px;
+    font-weight: 400;
 }
