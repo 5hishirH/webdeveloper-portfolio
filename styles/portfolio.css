@@ -55,5 +55,16 @@ nav a {
 
 .banner {
     padding: 30px 30px 30px 150px;
-    
+    display: flex;
+    align-items: center;
+}
+
+.btnContact {
+    border: 2px solid #FD6E0A;
+    border-radius: 5px;
+    background: transparent;
+    padding: 18px 35px;
+    font-size: 20px;
+    color: #FD6E0A;
+    font-weight: 700;
 }
